@@ -1,0 +1,59 @@
+*{
+
+}
+
+.header{
+  width: 100%;
+  position: fixed;
+}
+
+h1{
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: #00277E;
+  display: flex;
+  margin: 20px 0 20px 20px;
+}
+
+
+ul{
+  float: right;
+  font-weight: bold;
+  color: #00277E;
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+li{
+  margin: 20px 20px;
+}
+
+.flex{
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+
+.title_text{
+font-size: 100px;
+position: absolute;
+top: 55%;
+}
+
+.title_object{
+  width: 75%;
+  height: 40%;
+  background-color: #00277E;
+  position: absolute;
+  top: 70%;
+}
+
+.title_img{
+  width: 50%;
+  margin:0 0 0 auto;
+  display: block;
+  position: relative;
+}
+
